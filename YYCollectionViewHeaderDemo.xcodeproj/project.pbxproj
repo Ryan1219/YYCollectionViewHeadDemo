@@ -14,6 +14,10 @@
 		1F548E131EE4F53A006D18CF /* YYCollectionViewHeaderDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F548E111EE4F53A006D18CF /* YYCollectionViewHeaderDemo.xcdatamodeld */; };
 		1F548E151EE4F53A006D18CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F548E141EE4F53A006D18CF /* Assets.xcassets */; };
 		1F548E181EE4F53A006D18CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F548E161EE4F53A006D18CF /* LaunchScreen.storyboard */; };
+		1F548E211EE4F5BE006D18CF /* YYHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F548E201EE4F5BE006D18CF /* YYHeaderCollectionReusableView.m */; };
+		1F548E241EE4F8DD006D18CF /* YYShopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F548E231EE4F8DD006D18CF /* YYShopCollectionViewCell.m */; };
+		1F548E281EE508F7006D18CF /* YYShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F548E271EE508F7006D18CF /* YYShopModel.m */; };
+		1F548E2B1EE52753006D18CF /* YYShopHeadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F548E2A1EE52753006D18CF /* YYShopHeadModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,15 @@
 		1F548E141EE4F53A006D18CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F548E171EE4F53A006D18CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F548E191EE4F53A006D18CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F548E1F1EE4F5BE006D18CF /* YYHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		1F548E201EE4F5BE006D18CF /* YYHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		1F548E221EE4F8DD006D18CF /* YYShopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShopCollectionViewCell.h; sourceTree = "<group>"; };
+		1F548E231EE4F8DD006D18CF /* YYShopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShopCollectionViewCell.m; sourceTree = "<group>"; };
+		1F548E251EE4F9FF006D18CF /* YYCollectionViewHeaderPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCollectionViewHeaderPrefixHeader.pch; sourceTree = "<group>"; };
+		1F548E261EE508F7006D18CF /* YYShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShopModel.h; sourceTree = "<group>"; };
+		1F548E271EE508F7006D18CF /* YYShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShopModel.m; sourceTree = "<group>"; };
+		1F548E291EE52753006D18CF /* YYShopHeadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShopHeadModel.h; sourceTree = "<group>"; };
+		1F548E2A1EE52753006D18CF /* YYShopHeadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShopHeadModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +77,14 @@
 				1F548E091EE4F539006D18CF /* AppDelegate.m */,
 				1F548E0B1EE4F539006D18CF /* ViewController.h */,
 				1F548E0C1EE4F539006D18CF /* ViewController.m */,
+				1F548E1F1EE4F5BE006D18CF /* YYHeaderCollectionReusableView.h */,
+				1F548E201EE4F5BE006D18CF /* YYHeaderCollectionReusableView.m */,
+				1F548E221EE4F8DD006D18CF /* YYShopCollectionViewCell.h */,
+				1F548E231EE4F8DD006D18CF /* YYShopCollectionViewCell.m */,
+				1F548E261EE508F7006D18CF /* YYShopModel.h */,
+				1F548E271EE508F7006D18CF /* YYShopModel.m */,
+				1F548E291EE52753006D18CF /* YYShopHeadModel.h */,
+				1F548E2A1EE52753006D18CF /* YYShopHeadModel.m */,
 				1F548E0E1EE4F53A006D18CF /* Main.storyboard */,
 				1F548E141EE4F53A006D18CF /* Assets.xcassets */,
 				1F548E161EE4F53A006D18CF /* LaunchScreen.storyboard */,
@@ -78,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				1F548E061EE4F538006D18CF /* main.m */,
+				1F548E251EE4F9FF006D18CF /* YYCollectionViewHeaderPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,9 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F548E241EE4F8DD006D18CF /* YYShopCollectionViewCell.m in Sources */,
 				1F548E0D1EE4F539006D18CF /* ViewController.m in Sources */,
 				1F548E0A1EE4F539006D18CF /* AppDelegate.m in Sources */,
+				1F548E2B1EE52753006D18CF /* YYShopHeadModel.m in Sources */,
+				1F548E281EE508F7006D18CF /* YYShopModel.m in Sources */,
 				1F548E131EE4F53A006D18CF /* YYCollectionViewHeaderDemo.xcdatamodeld in Sources */,
+				1F548E211EE4F5BE006D18CF /* YYHeaderCollectionReusableView.m in Sources */,
 				1F548E071EE4F538006D18CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +306,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4U65JAZSA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YYCollectionViewHeaderDemo/YYCollectionViewHeaderPrefixHeader.pch;
 				INFOPLIST_FILE = YYCollectionViewHeaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.newfrog.YYCollectionViewHeaderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +321,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4U65JAZSA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YYCollectionViewHeaderDemo/YYCollectionViewHeaderPrefixHeader.pch;
 				INFOPLIST_FILE = YYCollectionViewHeaderDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ueb.newfrog.YYCollectionViewHeaderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
